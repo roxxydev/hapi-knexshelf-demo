@@ -1,0 +1,25 @@
+{
+  "name": "mobilephone-hapijs-knexshelf",
+  "description": "Example of knexshelf hapijs plugin usage",
+  "author": "Roxxy Rafael",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "lab -c -v -L -a code"
+  },
+  "dependencies": {
+    "knexshelf": "2.0.x",
+    "code": "4.0.x",
+    "good": "8.1.x",
+    "good-console": "7.1.x",
+    "good-squeeze": "5.1.x",
+    "hapi": "17.2.x",
+    "joi": "13.0.x",
+    "lab": "12.1.x"
+  }
+}
